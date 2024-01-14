@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body background="8a1eedcf93826b705615b446b0b270ca.jpg">
+    <body text="white">
+    <form action="">
+        <center><div class="container">
+        <p><h1 class="main_heading">LOGIN </h1>
+        <fieldset><legend>Name</legend><p> <input type="text" name="name" id="name" required></p></fieldset>
+        <fieldset><legend>Email</legend><p> <input type="email" name="email" id="email" required></p></fieldset>
+        <fieldset><legend>Phone Number</legend><p> <input type="number" name="ph number" id="ph number" required></p></fieldset>
+        <fieldset>
+            <legend>gender</legend>
+            <input type="radio" name="gender" id="male">Male    <input type="radio" name="gender" id="female">Female   <input type="radio" name="gender" id="other">Other
+        </p>
+        </fieldset>
+        <br>
+        <center><button class="button" href="www.google.com">submit</button>
+
+        </center>
+    </div></center>
+    </form>
+
+    
+</body>
+</html>
